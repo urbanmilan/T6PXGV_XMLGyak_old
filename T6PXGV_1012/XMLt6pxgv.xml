@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas xmlns:xs ="http://www.w3.org/2001/XMLSchema"  xsi:noNamespaceSchemaLocation = "XSDt6pxgv.xsd">
+
+	<etterem ekod = "e1">
+		<nev>Gyuru</nev>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Szabad</utca>
+			<hazszam>12</hazszam>
+		</cim>
+		<csillag>3</csillag>	
+	</etterem>
+	
+	<etterem ekod = "e2">
+		<nev>Kupa</nev>
+		<cim>
+			<varos>Gyula</varos>
+			<utca>Szezám</utca>
+			<hazszam>9</hazszam>
+		</cim>
+		<csillag>4</csillag>	
+	</etterem>
+	
+	<etterem ekod = "e3">
+		<nev>Szabadvilág</nev>
+		<cim>
+			<varos>Mezőkövesd</varos>
+			<utca>Hamvas</utca>
+			<hazszam>14</hazszam>
+		</cim>
+		<csillag>5</csillag>	
+	</etterem>
+	
+	<foszakacs fkod = "f1" e_f = "e1">
+		<nev>Kis János</nev>
+		<eletkor>40</eletkor>
+		<vegzettseg>Gimnázium</vegzettseg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+	</foszakacs>
+	
+	<foszakacs fkod = "f2" e_f = "e2">
+		<nev>Nagy Máté</nev>
+		<eletkor>20</eletkor>
+		<vegzettseg>Gimnázium</vegzettseg> 
+	</foszakacs>
+	
+	<foszakacs fkod = "f3" e_f = "e3">
+		<nev>Baranyi Gábor</nev>
+		<eletkor>67</eletkor>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Le france grande</vegzettseg>
+	</foszakacs>
+	
+	<szakacs szkod = "sz1" e_sz ="e1">
+		<nev>Orbán Lehel</nev>
+		<reszleg>Raktar</reszleg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+	</szakacs>
+	
+	<szakacs szkod = "sz2" e_sz ="e2">
+		<nev>Szabó Gergely</nev>
+		<reszleg>Konyha</reszleg>
+		<vegzettseg>Gimnázium</vegzettseg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+	</szakacs>
+	
+	<szakacs szkod = "sz3" e_sz ="e3">
+		<nev>Leveles István</nev>
+		<reszleg>Konyha</reszleg>
+		<vegzettseg>Gimnázium</vegzettseg>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+	</szakacs>
+	
+	<gyakornok gykod ="gy1" e_gy = "e1">
+		<nev>Hüvelyes József</nev>
+		<gyakorlat>
+			<kezdete>2020.08.20</kezdete>
+			<idotartama>3 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délelőtt</muszak>
+		<muszak>Este</muszak>	
+	</gyakornok>
+	
+	<gyakornok gykod ="gy2" e_gy = "e2">
+		<nev>Urbán Péter</nev>
+		<gyakorlat>
+			<kezdete>2020.09.23</kezdete>
+			<idotartama>7 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délután</muszak>
+		<muszak>Este</muszak>	
+	</gyakornok>
+	
+	<gyakornok gykod ="gy3" e_gy = "e3">
+		<nev>Felhős Pista</nev>
+		<gyakorlat>
+			<kezdete>2021.07.11</kezdete>
+			<idotartama>1 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délelőtt</muszak>	
+	</gyakornok>
+	
+	<vendeg vkod="v1">
+		<nev>Földi Márton</nev>
+		<eletkor>21</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Márton</utca>
+			<hazszam>17</hazszam>
+		</cim>
+	</vendeg>
+	
+	<vendeg vkod="v2">
+		<nev>Smid Áron</nev>
+		<eletkor>30</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Széchényi</utca>
+			<hazszam>20</hazszam>
+		</cim>
+	</vendeg>
+	
+	<vendeg vkod="v3">
+		<nev>Kis Pál</nev>
+		<eletkor>26</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Rákóczi</utca>
+			<hazszam>35</hazszam>
+		</cim>
+	</vendeg>
+	
+	<rendeles e_v_e ="e1" e_v_v ="v1">
+		<osszeg>700</osszeg>
+		<etel>leves</etel>
+	</rendeles>
+	
+	<rendeles e_v_e ="e2" e_v_v ="v2">
+		<osszeg>4000</osszeg>
+		<etel>salata</etel>
+	</rendeles>
+	
+	<rendeles e_v_e ="e3" e_v_v ="v3">
+		<osszeg>300</osszeg>
+		<etel>hus</etel>
+	</rendeles>
+	
+</vendeglatas>
