@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+	<cim>Maxinagy</cim>
+	<hallgatok>
+		<hallgato>
+			<nev>Urbán Milán</nev>
+			<lakcim>Miskolci Egyetem Uni Hotel</lakcim>
+		</hallgato>
+	</hallgatok>
+	<helyszin>Miskolc</helyszin>
+	<eloado>
+		<nev>Bednarik László</nev>
+		<adoszam>2222222</adoszam>
+		<lakcim>Miskolc</lakcim>
+	</eloado>
+	<datum>2022.10.17</datum>
+</konferencia>
