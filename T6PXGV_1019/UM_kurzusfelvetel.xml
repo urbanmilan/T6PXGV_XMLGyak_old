@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UM_kurzusfelvetel tanev="2022_2023 I." egyetem="ME">
+
+	<hallgato id = "T6PXGV_ME">
+		<hnev>Urbán Milán</hnev>
+		<szulev>2000-06-30</szulev>
+		<szak evf= "5">Mérnökinformatikus</szak>
+	</hallgato>
+	
+	<kurzusok>
+		<kurzus id = "GEIAL332-B">
+			<kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+			<kredit>5</kredit>
+			<hely>XXXII.</hely>
+			<idopont>Kedd 12:00-13:30</idopont>
+			<oktato>Dr. Bednarik László</oktato>
+		</kurzus>
+		<kurzus id= "GEIAL322-B" jovahagyas ="igen">
+			<kurzusnev>Adatbázis Rendszerek II.</kurzusnev>
+			<kredit>5</kredit>
+			<hely>Inf101</hely>
+			<idopont>Szerda 8:00-9:30</idopont>
+			<oktato>Dr. Kovács László</oktato>
+		</kurzus>
+	</kurzusok>
+</UM_kurzusfelvetel>
